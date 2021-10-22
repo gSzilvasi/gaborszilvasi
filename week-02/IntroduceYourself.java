@@ -7,8 +7,12 @@ public class IntroduceYourself {
         //  - Neved
         //  - Korod
         //  - Magasságod méterben kifejezve (tört érték)        // Egy karakterláncot (string) printel a terminal ablakba.
-        System.out.println("Szilvási Gábor Péter");
-        System.out.println(30);
-        System.out.println(1.8+"m");
+        String Name = "Szilvási Gábor Péter";
+        int Age = 30;
+        double Height = 1.8;
+
+        System.out.println(Name);
+        System.out.println(Age);
+        System.out.println(Height+"m");
     }
 }
