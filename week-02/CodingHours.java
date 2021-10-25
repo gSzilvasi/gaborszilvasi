@@ -10,10 +10,15 @@ public class CodingHours {
             //
             // Írd ki, hogy a félév hány százalékát tölti a hallgató kódolással
             // ha az átlagos heti munkaidő 52 óra
-            int studentTimeerDay = 6;
+
+            int studentTimePerDay = 6;
             int halfYearWeeks = 17;
-            int weekdays = 5;
-            int allLearningTimePerHalfYear = studentTimeerDay * weekdays * halfYearWeeks;
+            int weekDays = 5;
+            int allLearningTimePerHalfYear = studentTimePerDay * weekDays * halfYearWeeks;
             System.out.println(allLearningTimePerHalfYear);
+
+            int WorkingHour = 52;
+            int HalfYearWH = WorkingHour * 17;
+            System.out.println(allLearningTimePerHalfYear * 100 /HalfYearWH +"%");
         }
 }
