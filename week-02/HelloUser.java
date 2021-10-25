@@ -12,6 +12,7 @@ import java.util.Scanner;
                 // Készít egy scanner-t, majd adok egy imput mezőt instrukcióval
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Kérlek, add meg a neved (majd nyomj egy 'Enter-t'): ");
+
                 // A program megáll és vár a felhasználói input-ra, illetve utána az enter megnyomására
                 String userInput1 = scanner.nextLine();
 
