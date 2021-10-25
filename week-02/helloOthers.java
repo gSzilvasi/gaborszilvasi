@@ -7,8 +7,15 @@ class HelloOthers {
         // Helló Eszter!
         // Helló Maris!
         // Helló Józsi!
-        System.out.println("Helló, Eszter!");
-        System.out.println("Helló, Maris!");
-        System.out.println("Helló, Józsi!");
+
+        String a = "Eszter";
+        String b = "Maris";
+        String c = "Józsi";
+        String d = "Helló ";
+
+
+        System.out.println(d + a + "!");
+        System.out.println(d + b + "!");
+        System.out.println(d + c + "!");
     }
 }
