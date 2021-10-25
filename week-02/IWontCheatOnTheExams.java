@@ -5,7 +5,7 @@ public class IWontCheatOnTheExams {
         // Írj egy programot ami 100-szor kiírja:
         // "Nem fogok csalni az a vizsgán!"
         for (int i = 1; i <= 100; i++) {
-            System.out.println("Hello World!");
+            System.out.println(i + " Hello World!");
         }
     }
 }
