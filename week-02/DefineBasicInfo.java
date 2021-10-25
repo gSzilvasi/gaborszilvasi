@@ -7,6 +7,7 @@ public class DefineBasicInfo {
         // - Korod egész számként (integer)
         // - Magasságod méterben törtszámként (float / double)
         // - Házas vagy-e logikai értékként (boolean)
+
         String Name = "Szilvási Gábor Péter";
         int Age = 30;
         double Height = 1.8;
