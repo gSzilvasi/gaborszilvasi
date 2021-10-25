@@ -24,7 +24,7 @@ public class VariableMutation {
 
             int f1 = 123;
             int f2 = 345;
-            boolean f3 = f1>f2;
+            boolean f3 = (f1>f2);
             // Logikai (boolean) értékként írasd ki hogy f1 nagyobb-e f2-nél
             System.out.println(f3);
 
@@ -36,7 +36,7 @@ public class VariableMutation {
 
             int h = 135798745;
             int h2 = h % 11;
-            boolean h3 = h2 <= 0;
+            boolean h3 = (h2 == 0);
             // Mondja meg a program, hogy osztható-e 11-el maradék nélkül?
             // Írasd is ki logikai (boolean) értékként
             System.out.println(h3);
@@ -44,7 +44,7 @@ public class VariableMutation {
             int i1 = 10;
             int i2 = 3;
             int i3 = i2*i2;
-            boolean i4 = i1 > i2*i2 && i1 < i2*i2*i2;
+            boolean i4 = ((i1 > i2*i2) && (i1 < i2*i2*i2));
             // Mondja meg a program hogy i1 nagyobb-e i2 négyzeténél ÉS ugyanakkor kisebb-e i2 köbénél (boolean)
             System.out.println(i4);
 
