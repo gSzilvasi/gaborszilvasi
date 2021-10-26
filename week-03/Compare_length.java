@@ -19,12 +19,10 @@ public class Compare_length {
         secondArrayOfNumbers[1] = '5';
 
         if (secondArrayOfNumbers.length > firstArrayOfNumbers.length) {
-            System.out.println("A secondArrayOfNumbers hosszabb");
+            System.out.println("A secondArrayOfNumbers hosszabb" + secondArrayOfNumbers.length + "elem van összesen, míg a " + firstArrayOfNumbers.length);
         }
         else{
-            System.out.println("A secondArrayOfNumbers rövidebb");
+            System.out.println("A secondArrayOfNumbers rövidebb, ebben a tömbben: " + secondArrayOfNumbers.length + " elem van összesen, míg a firstArrayOfNumbers tömbben " + firstArrayOfNumbers.length + " elem van.");
         }
-
     }
-
 }
